@@ -4,6 +4,11 @@ project is inspired by https://read.seas.harvard.edu/cs260r/2022/project1/
 
 system basically simulates a distributed infrastructure, nodes processing jobs wqith constraints like memory, CPU, etc. where jobs are assigned to nodes based on scheduling algorithms chosen by the user (Round Robin, FIFO). THere's also simulation for fault tolerance since nodes can fail during execution in the real world. Consistency models are also supported (Strong vs Eventual consistency).
 
+some more todo
+
+- add more scheduling algos (load balancing?)
+- better simulation: network (e.g. more complex topologies) + failures scenarios (e.g. storage, network partition)
+
 # preview
 
 ```bash
